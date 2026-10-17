@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>IFMG - Campus Ouro Branco</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	.container-principal{
+		width: 100%;
+		margin: auto;
+	}
+
+	#container {
+		width: 630px;
+		height: 600px;
+		margin: 10% 30% 10% 30%;
+		border: 1px solid green;
+		display: table-cell;
+		text-align: left;
+		position: absolute;
+		
+		
+		
+	}
+
+	.box {
+		float: left;
+		width: 100px;
+		height: 0px;
+		
+		
+	}
+
+	#box-1 {
+		background-color: white;
+		border: 1px solid green;
+		padding: 20px;
+		margin: 5% 3% 1% 15%;
+		width: 400px;
+		height: 320px;
+		text-align: center;
+	}
+
+	
+
+
+</style>
+</head>
+<body>
+	
+	
+	<div class="container-principal">
+	<div id="container">
+	<center><img  src="logoIF.png" alt="Ifmg"></center>
+	<div id="box-1" class="box">
+		<form action="/action_page.php">
+			<h1>Requerimentos</h1>
+				<center><table border="1">
+				<tr>
+				<td>Aluno</td>
+				<td>Data</td>
+				<td>Tipo Requerimento</td>
+				</tr>
+				<tr>
+				<td>Rafael</td>
+				<td>06/06</td>
+				<td>Segunda chamada</td>
+				</tr>
+				<tr>
+				<td>Reinaldo</td>
+				<td>06/06</td>
+				<td>Renovação de matricula</td>
+				</tr>
+				<tr>
+				<td>João</td>
+				<td>04/06</td>
+				<td>Cursar Dependência</td>
+				</tr>
+				</table></center>
+		</form>
+		<br>
+		<br>
+		<input type="submit" value="Sair" onClick="window.location.href = 'logout.php'"><br>
+		<br>
+	</div>
+	</div>
+	</div>
+
+</div>
+</body>
+</html>
